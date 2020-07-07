@@ -28,20 +28,30 @@
 	<h4>New book</h4>
 	<%= form_for(@book) do |f| %>
 	    <% if @book.errors.any? %>
-	        <h5><%= @book.errors.count %>errors prohibited this book from being saved:</h5>
-		        <ul>
-			        <% @book.errors.full_messages.each do |message| %>
-			            <li><%= message %></li>
-                    <% end %>
+	        <div class="error">
+	            <h4 class="error-title"><%= @book.errors.count %>errors prohibited this book from being saved:</h5>
+		            <ul class="error-box">
+			            <% @book.errors.full_messages.each do |message| %>
+			                <li><%= message %></li>
+                        <% end %>
                 </ul>
+            </div>
         <% end %>
-        <div class="box">
-		    <p>Title</p>
+        <div class="box field">
+        	<div>
+		        <%= f.label :title, "Titele" %>
+		    </div>
+		    <div>
 		        <%= f.text_field :title %>
+		    </div>
 		</div>
 		<div class="box">
-		    <p>Body</p>
+			<div>
+		        <%= f.label :title, "Titele" %>
+		    </div>
+		    <div>
 		        <%= f.text_area :body %>
+		    </div>
 		</div>
 		<%= f.submit 'Create Book' ,class:"submit" %>
 	<% end %>

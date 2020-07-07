@@ -25,9 +25,15 @@
  }
  .home-body{
  	margin-left: 30px;
+ 	font-size: 13px;
  }
  .home-text{
  	margin: 30px 0;
+ }
+ .flash{
+	color: #008000;
+	margin: 25px 60px;
+	font-size: 13px;
  }
 main{
 	margin: 35px;
@@ -36,24 +42,41 @@ table{
 	margin: 5px;
 	font-size: 13px;
 }
-thead{
-
-}
-tr{
-	
-}
 th{
 	padding: 3px;
 }
-tbody{
-}
 td{
 	padding: 3px;
+}
+.action{
+	float: left;
+	margin: 0 3px;
+	font-size: 13px;
 }
 .submit{
 	display: block;
 	padding: 1px 5px;
 	margin-bottom: 8px
+}
+
+.error{
+	width: 500px;
+	border: solid red 1px;
+	background-color: #EEEEEE;
+	margin: 10px 0;
+	font-size: 13px;
+}
+.error-title{
+	background-color: #CC0000;
+	color: #FFF;
+	padding: 5px 10px;
+}
+.error-box{
+
+}
+ul{
+	display: block;
+	padding: 40px 60px;
 }
 .show{
 	margin: 30px;
@@ -71,16 +94,14 @@ td{
 .box{
 	margin: 8px 0;
 	font-size: 13px;
+	display: block;
 }
-.action{
-	float: left;
-	margin: 0 3px;
-	font-size: 13px;
+.field_with_errors {
+	display: inline-block;
+	background-color: red;
+	padding: 5px;
 }
-.flash{
-	color: #008000;
-	margin: 25px 60px;
-	font-size: 13px;
-}
+
+
 
 
