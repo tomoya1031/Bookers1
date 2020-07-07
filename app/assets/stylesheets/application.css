@@ -30,10 +30,11 @@
  	margin: 30px 0;
  }
 main{
-	margin: 30px;
+	margin: 35px;
 }
 table{
 	margin: 5px;
+	font-size: 13px;
 }
 thead{
 
@@ -42,28 +43,44 @@ tr{
 	
 }
 th{
-	
+	padding: 3px;
 }
 tbody{
 }
 td{
+	padding: 3px;
 }
 .submit{
 	display: block;
+	padding: 1px 5px;
+	margin-bottom: 8px
 }
-.index{
-	margin: 40px;
-}
-.index-text{
+.show{
 	margin: 30px;
+	font-size: 13px;
+}
+.text{
+	margin: 30px;
+}
+.text-title{
+	margin-right: 5px;
+}
+.edit{
+	margin: 30px;
+}
+.box{
+	margin: 8px 0;
+	font-size: 13px;
 }
 .action{
 	float: left;
-	margin: 0 5px;
+	margin: 0 3px;
+	font-size: 13px;
 }
 .flash{
 	color: #008000;
-	margin: 40px;
+	margin: 25px 60px;
+	font-size: 13px;
 }
 
 

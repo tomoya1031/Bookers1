@@ -4,9 +4,9 @@
 	</div>
 <% end %>
 
-<div class="index">
-	<p class="index-text"><strong>Title:</strong><%= @book.title %></p>
-	<p class="index-text"><strong>Body:</strong><%= @book.body %></p>
+<div class="show">
+	<p class="text"><strong class="text-title">Title:</strong><%= @book.title %></p>
+	<p class="text"><strong class="text-title">Body:</strong><%= @book.body %></p>
 	<%= link_to "Edit", edit_book_path(@book) ,class:"action" %>
 	<p class="action"> | </p>
 	<a class="action" href="/books">Back</a>
